@@ -12,10 +12,10 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://your-github-username.github.io',   // ← Replace with your GitHub username
+  url: 'https://pramod915899.github.io',
   baseUrl: '/Perf-Agent-Doc/',
 
-  organizationName: 'your-github-username',         // ← Replace with your GitHub username
+  organizationName: 'pramod915899',
   projectName: 'Perf-Agent-Doc',
   deploymentBranch: 'gh-pages',
 
@@ -24,7 +24,7 @@ const config: Config = {
 
   markdown: {
     hooks: {
-      onBrokenMarkdownLinks: 'warn',
+      onBrokenMarkdownImages: 'warn',
     },
   },
 
