@@ -5,22 +5,21 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Waynautic AI Perf Agent',
-  tagline: 'Intelligent performance testing — from script generation to analysis and NFR strategy',
+  tagline: 'Intelligent performance testing from script generation to analysis and NFR strategy',
   favicon: 'img/favicon.ico',
 
   future: {
     v4: true,
   },
 
-  url: 'https://example.com',   // ← Replace with your GitHub username
-  baseUrl: '/',
+  url: 'https://pramod915899.github.io',
+  baseUrl: '/Waynautic-Perf-Agent/',
 
-  organizationName: 'your-github-username',         // ← Replace with your GitHub username
-  projectName: 'Perf-Agent-Doc',
+  organizationName: 'pramod915899',
+  projectName: 'Waynautic-Perf-Agent',
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'warn',
 
   markdown: {
     hooks: {
@@ -33,7 +32,6 @@ const config: Config = {
     locales: ['en'],
   },
 
-  // ── Search Plugin ─────────────────────────────────────────────────────────
   plugins: [
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
@@ -52,10 +50,7 @@ const config: Config = {
     ],
   ],
 
-  // ── Image Lightbox Script ─────────────────────────────────────────────────
-  scripts: [
-    '/Perf-Agent-Doc/js/imageExpand.js',
-  ],
+  scripts: ['/Waynautic-Perf-Agent/js/imageExpand.js'],
 
   presets: [
     [
@@ -63,15 +58,13 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          routeBasePath: '/',   // Makes docs the homepage
+          routeBasePath: '/',
           breadcrumbs: false,
           editUrl: undefined,
         },
         blog: false,
         theme: {
-          customCss: [
-            require.resolve('./src/css/custom.css'),
-          ],
+          customCss: [require.resolve('./src/css/custom.css')],
         },
       } satisfies Preset.Options,
     ],
@@ -125,27 +118,19 @@ const config: Config = {
         },
         {
           title: 'Auto Script',
-          items: [
-            { label: 'Auto Script', to: '/auto-script' },
-          ],
+          items: [{ label: 'Auto Script', to: '/auto-script' }],
         },
         {
           title: 'Auto Analysis',
-          items: [
-            { label: 'Auto Analysis', to: '/auto-analysis' },
-          ],
+          items: [{ label: 'Auto Analysis', to: '/auto-analysis' }],
         },
         {
           title: 'NFR Strategy Hub',
-          items: [
-            { label: 'NFR Strategy Hub', to: '/auto-nfr' },
-          ],
+          items: [{ label: 'NFR Strategy Hub', to: '/auto-nfr' }],
         },
         {
           title: 'AI Chatbot',
-          items: [
-            { label: 'AI Chatbot', to: '/chatbot' },
-          ],
+          items: [{ label: 'AI Chatbot', to: '/chatbot' }],
         },
       ],
       copyright: `© ${new Date().getFullYear()} Waynautic / EXG. All rights reserved.`,
