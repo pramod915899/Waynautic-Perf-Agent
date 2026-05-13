@@ -5,26 +5,25 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Waynautic AI Perf Agent',
-  tagline: 'Intelligent performance testing — from script generation to analysis and NFR strategy',
+  tagline: 'Intelligent performance testing from script generation to analysis and NFR strategy',
   favicon: 'img/favicon.ico',
 
   future: {
     v4: true,
   },
 
-  url: 'https://pramod915899.github.io',   // ← Replace with your GitHub username
+  url: 'https://pramod915899.github.io',
   baseUrl: '/Waynautic-Perf-Agent/',
 
-  organizationName: 'pramod915899',         // ← Replace with your GitHub username
+  organizationName: 'pramod915899',
   projectName: 'Waynautic-Perf-Agent',
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'warn',
 
   markdown: {
     hooks: {
-      onBrokenMarkdownImages: 'warn',
+      onBrokenMarkdownLinks: 'warn',
     },
   },
 
@@ -33,9 +32,6 @@ const config: Config = {
     locales: ['en'],
   },
 
-  // ── Search Plugin ─────────────────────────────────────────────────────────
-  // Uses @easyops-cn/docusaurus-search-local (works in both dev and prod).
-  // Exact-phrase match mode: no stemming, no stop-word filtering.
   plugins: [
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
@@ -54,10 +50,7 @@ const config: Config = {
     ],
   ],
 
-  // ── Image Lightbox Script ─────────────────────────────────────────────────
-  scripts: [
-    '/Perf-Agent-Doc/js/imageExpand.js',
-  ],
+  scripts: ['/Waynautic-Perf-Agent/js/imageExpand.js'],
 
   presets: [
     [
@@ -65,15 +58,13 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          routeBasePath: '/',   // Makes docs the homepage
+          routeBasePath: '/',
           breadcrumbs: false,
           editUrl: undefined,
         },
         blog: false,
         theme: {
-          customCss: [
-            require.resolve('./src/css/custom.css'),
-          ],
+          customCss: [require.resolve('./src/css/custom.css')],
         },
       } satisfies Preset.Options,
     ],
@@ -82,7 +73,6 @@ const config: Config = {
   themeConfig: {
     image: 'img/logo.svg',
 
-    // ── Light-only mode (matches Exgenix) ──────────────────────────────────
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,
@@ -105,8 +95,8 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          href: 'https://app.perf-agent.waynautic.com/', // ← Replace with actual Perf Agent platform URL
-          label: 'Perf Agent Platformmmm',
+          href: 'http://122.173.132.55:3002/ai-perf-agent',
+          label: 'Perf Agent Platform',
           position: 'right',
         },
         {
@@ -128,23 +118,20 @@ const config: Config = {
         },
         {
           title: 'Auto Script',
-          items: [
-            { label: 'Auto Script', to: '/auto-script' },
-          ],
+          items: [{ label: 'Auto Script', to: '/auto-script' }],
         },
-        // Uncomment as each component's docs go live:
-        // {
-        //   title: 'Auto Analysis',
-        //   items: [
-        //     { label: 'Overview', to: '/auto-analysis/overview' },
-        //   ],
-        // },
-        // {
-        //   title: 'NFR Strategy Hub',
-        //   items: [
-        //     { label: 'Overview', to: '/nfr/overview' },
-        //   ],
-        // },
+        {
+          title: 'Auto Analysis',
+          items: [{ label: 'Auto Analysis', to: '/auto-analysis' }],
+        },
+        {
+          title: 'NFR Strategy Hub',
+          items: [{ label: 'NFR Strategy Hub', to: '/auto-nfr' }],
+        },
+        {
+          title: 'AI Chatbot',
+          items: [{ label: 'AI Chatbot', to: '/chatbot' }],
+        },
       ],
       copyright: `© ${new Date().getFullYear()} Waynautic / EXG. All rights reserved.`,
     },

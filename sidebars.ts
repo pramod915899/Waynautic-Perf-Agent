@@ -8,7 +8,7 @@ const sidebars: SidebarsConfig = {
     'auto-script/auto-script',
 
     // ─── Auto Analysis ────────────────────────────────────────────────────
-    // Uncomment when Auto Analysis docs are ready
+    'auto-analysis/auto-analysis',
     // {
     //   type: 'category',
     //   label: 'Auto Analysis',
@@ -43,7 +43,7 @@ const sidebars: SidebarsConfig = {
     // },
 
     // ─── NFR Strategy Hub ─────────────────────────────────────────────────
-    // Uncomment when NFR docs are ready
+    'auto-nfr/nfr', 
     // {
     //   type: 'category',
     //   label: 'NFR Strategy Hub',
@@ -86,7 +86,8 @@ const sidebars: SidebarsConfig = {
     //     'governance/overview',
     //   ],
     // },
-
+    //---------------Chat-Bot---------------------
+    'chatbot/chatbot',
     // ─── Settings ─────────────────────────────────────────────────────────
     'settings/settings',
   ],

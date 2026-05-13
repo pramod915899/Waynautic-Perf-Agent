@@ -31,7 +31,9 @@ You select your application, upload both HAR files, and Auto Script handles corr
 
 Auto Analysis manages the full test execution and reporting cycle. Upload your JMX to BlazeMeter, trigger runs through a connected GitHub or Azure DevOps pipeline, monitor results inside Perf Agent, and automatically send result reports to stakeholders by email — all from one place.
 
-→ *Documentation coming soon*
+You configure each application once — linking a JMX script, a GitHub repository, and your load parameters — and Auto Analysis handles workflow creation, BlazeMeter orchestration, and post-run reporting automatically.
+
+→ [Get started with Auto Analysis](/auto-analysis/)
 
 ---
 
@@ -39,7 +41,7 @@ Auto Analysis manages the full test execution and reporting cycle. Upload your J
 
 The NFR Strategy Hub uses AI to generate a complete Non-Functional Requirements strategy for your application. It defines your SLAs, workload model, recommended test types, and performance thresholds — giving your team a documented baseline before testing begins.
 
-→ *Documentation coming soon*
+→ [Get started with NFR Strategy Hub](/auto-nfr/)
 
 ---
 
@@ -55,6 +57,7 @@ Governance monitors compliance against your NFR thresholds across test pipelines
 
 Every screen in Perf Agent includes a built-in AI chatbot. It can answer questions about your test build results, observations surfaced by Auto Analysis, your NFR thresholds and strategy, and how to use Auto Script. It has full context of what you are working on at any point in the platform.
 
+→ [Learn more about the AI Chatbot](/chatbot/)
 ---
 
 ## How It All Fits Together
