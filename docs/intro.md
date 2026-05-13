@@ -47,9 +47,28 @@ The NFR Strategy Hub uses AI to generate a complete Non-Functional Requirements 
 
 ### 🛡️ Governance *(Work in Progress)*
 
-Governance monitors compliance against your NFR thresholds across test pipelines. It tracks whether builds meet the standards defined in your NFR strategy and flags breaches — giving teams continuous visibility into performance compliance over time.
+Governance is the ROI and compliance monitoring layer within Perf Agent. It tracks the value your automation delivers across all four platform components and surfaces efficiency metrics, token usage, and cost savings in one centralised dashboard.
 
-→ *Documentation coming soon*
+Rather than manually tallying how much time or money your performance testing automation saves, Governance calculates it continuously from real platform activity — scripts generated, test runs executed, NFR strategies produced, and AI interactions completed.
+
+**The Governance Dashboard tracks:**
+
+| Metric | What it measures |
+|---|---|
+| **Total Time Saved** | Cumulative hours saved across all automated platform activity |
+| **Manual Effort Reduction** | Percentage reduction versus a fully manual performance engineering baseline |
+| **Cost Savings** | Dollar value of time saved, derived from an assumed engineering hourly rate |
+| **Automation Coverage** | Percentage of testing activity automated through Perf Agent |
+| **Return on Investment** | Total value generated relative to the estimated cost of platform usage |
+| **Productivity Improvement** | Team throughput improvement enabled by automation across all components |
+
+In addition to KPI cards, the dashboard includes **Time Savings Trend** and **Cost Savings Over Time** charts — showing month-on-month accumulation of savings as platform usage grows — and an **LLM Usage** section that breaks down token consumption and AI cost by model.
+
+:::note
+A future release of Governance will add **NFR compliance monitoring** — tracking whether builds across your test pipelines are meeting the SLA thresholds defined in the NFR Strategy Hub, and flagging breaches across releases and environments.
+:::
+
+→ [Get started with Governance](/governance/)
 
 ---
 

@@ -77,15 +77,7 @@ const sidebars: SidebarsConfig = {
     // },
 
     // ─── Governance ───────────────────────────────────────────────────────
-    // Uncomment when Governance docs are ready
-    // {
-    //   type: 'category',
-    //   label: 'Governance',
-    //   collapsed: true,
-    //   items: [
-    //     'governance/overview',
-    //   ],
-    // },
+    'governance/governance',
     //---------------Chat-Bot---------------------
     'chatbot/chatbot',
     // ─── Settings ─────────────────────────────────────────────────────────
@@ -94,3 +86,4 @@ const sidebars: SidebarsConfig = {
 };
 
 export default sidebars;
+
