@@ -269,3 +269,14 @@ Click the delete icon (🗑️) in the Action column to remove a model. Removing
 :::note
 AI Settings are administrator-level controls. Contact your Perf Agent administrator if you need a specific model added or if you are experiencing rate limit errors during chatbot queries.
 :::
+---
+
+## Product Video
+
+<div class="doc-video-block">
+  <video controls preload="metadata">
+    <source src="../videos/Chat-Bot.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <p class="doc-video-caption">AI Chatbot walkthrough video.</p>
+</div>

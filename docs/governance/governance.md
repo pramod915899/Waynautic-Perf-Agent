@@ -112,3 +112,15 @@ Monitor LLM spend by checking the LLM Usage section regularly, especially if you
 Drive Automation Coverage higher by ensuring all performance testing workflows run through Auto Analysis rather than being triggered manually outside Perf Agent.
 
 Return after each sprint or release cycle to see how the trend charts evolve - steady month-on-month growth in time and cost savings is the expected pattern as platform usage matures.
+
+---
+
+## Product Video
+
+<div class="doc-video-block">
+  <video controls preload="metadata">
+    <source src="../videos/Governance.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <p class="doc-video-caption">Governance dashboard walkthrough video.</p>
+</div>

@@ -204,3 +204,14 @@ The generated document is a strong starting point. We recommend the following af
 :::tip
 If the generated strategy is missing specifics — for example, the SLAs are too generic or the workload model does not reflect your application's actual transaction mix — provide more targeted input: select fewer, more relevant issue tracker items, upload a BRD or architecture document, and use the Additional Instructions field to steer the AI toward the areas that matter most.
 :::
+---
+
+## Product Video
+
+<div class="doc-video-block">
+  <video controls preload="metadata">
+    <source src="../videos/Auto-NFR.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <p class="doc-video-caption">NFR Strategy Hub walkthrough video.</p>
+</div>

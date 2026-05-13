@@ -45,7 +45,7 @@ The NFR Strategy Hub uses AI to generate a complete Non-Functional Requirements 
 
 ---
 
-### 🛡️ Governance *(Work in Progress)*
+### 🛡️ Governance 
 
 Governance is the ROI and compliance monitoring layer within Perf Agent. It tracks the value your automation delivers across all four platform components and surfaces efficiency metrics, token usage, and cost savings in one centralised dashboard.
 
@@ -118,60 +118,3 @@ Perf Agent has a settings layer that applies across all four components. Access 
 ## Where to Start
 
 If you are new to Perf Agent, start with the [Auto Script Quick Start Guide](/auto-script/auto-script). It is the entry point for most performance testing workflows and the fastest way to get hands-on with the platform.
----
-
-## Product Videos
-
-Use these local video embeds across sections. Files should exist under `static/videos`.
-
-### Auto Script
-
-<div class="doc-video-block">
-  <video controls preload="metadata">
-    <source src="videos/Auto-Script.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-  <p class="doc-video-caption">Auto Script walkthrough video.</p>
-</div>
-
-### Auto Analysis
-
-<div class="doc-video-block">
-  <video controls preload="metadata">
-    <source src="videos/Auto_Analysis.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-  <p class="doc-video-caption">Auto Analysis overview and flow.</p>
-</div>
-
-### Auto NFR
-
-<div class="doc-video-block">
-  <video controls preload="metadata">
-    <source src="videos/Auto-NFR.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-  <p class="doc-video-caption">NFR strategy generation and setup.</p>
-</div>
-
-### Governance
-
-<div class="doc-video-block">
-  <video controls preload="metadata">
-    <source src="videos/Governance.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-  <p class="doc-video-caption">Governance monitoring and compliance.</p>
-</div>
-
-### AI Chatbot
-
-<div class="doc-video-block">
-  <video controls preload="metadata">
-    <source src="videos/Chat-Bot.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-  <p class="doc-video-caption">Built-in assistant and contextual help.</p>
-</div>
-
-

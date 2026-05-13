@@ -202,3 +202,14 @@ Once you have reviewed build results:
 - **Compare against your NFR thresholds** — Use the SLAs defined in the **NFR Strategy Hub** as the benchmark for evaluating whether transactions are meeting their targets.
 - **Use the AI Chatbot** — The built-in chatbot on the build report screen has full context of the results and can answer questions about specific observations or transactions.
 - **Re-run after fixes** — After addressing any regressions identified in Observations, trigger a new run via RUN NOW and compare the new build against the previous one.
+---
+
+## Product Video
+
+<div class="doc-video-block">
+  <video controls preload="metadata">
+    <source src="../videos/Auto_Analysis.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <p class="doc-video-caption">Auto Analysis overview and flow.</p>
+</div>

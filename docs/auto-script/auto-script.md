@@ -212,3 +212,15 @@ Once your script is validated and the CSV data is in place, you have two paths f
 
 - **Run locally** — Execute directly in Apache JMeter for smaller tests or script debugging.
 - **Run via BlazeMeter** — Head to **Auto Analysis** to upload the script and trigger a cloud-based load test through your connected GitHub or Azure DevOps pipeline.
+
+---
+
+## Product Video
+
+<div class="doc-video-block">
+  <video controls preload="metadata">
+    <source src="../videos/Auto-Script.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <p class="doc-video-caption">Auto Script walkthrough video.</p>
+</div>
