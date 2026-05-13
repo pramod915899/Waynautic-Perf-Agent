@@ -85,15 +85,9 @@ const config: Config = {
       title: 'Perf Agent Docs',
       logo: {
         alt: 'Waynautic AI Perf Agent Logo',
-        src: 'img/logo.svg',
+        src: 'img/w.jpg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Documentation',
-        },
         {
           href: 'http://122.173.132.55:3002/ai-perf-agent',
           label: 'Perf Agent Platform',
