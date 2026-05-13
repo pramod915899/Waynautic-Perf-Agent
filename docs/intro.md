@@ -41,7 +41,7 @@ You configure each application once — linking a JMX script, a GitHub repositor
 
 The NFR Strategy Hub uses AI to generate a complete Non-Functional Requirements strategy for your application. It defines your SLAs, workload model, recommended test types, and performance thresholds — giving your team a documented baseline before testing begins.
 
-→ [Get started with NFR Strategy Hub](/auto-nfr/)
+→ [Get started with NFR Strategy Hub](/auto-NFR/)
 
 ---
 
@@ -109,7 +109,7 @@ Use these local video embeds across sections. Files should exist under `static/v
 
 <div class="doc-video-block">
   <video controls preload="metadata">
-    <source src="/videos/Auto-Script.mp4" type="video/mp4" />
+    <source src="videos/Auto-Script.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
   <p class="doc-video-caption">Auto Script walkthrough video.</p>
@@ -119,7 +119,7 @@ Use these local video embeds across sections. Files should exist under `static/v
 
 <div class="doc-video-block">
   <video controls preload="metadata">
-    <source src="/videos/Auto_Analysis.mp4" type="video/mp4" />
+    <source src="videos/Auto_Analysis.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
   <p class="doc-video-caption">Auto Analysis overview and flow.</p>
@@ -129,7 +129,7 @@ Use these local video embeds across sections. Files should exist under `static/v
 
 <div class="doc-video-block">
   <video controls preload="metadata">
-    <source src="/videos/Auto-NFR.mp4" type="video/mp4" />
+    <source src="videos/Auto-NFR.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
   <p class="doc-video-caption">NFR strategy generation and setup.</p>
@@ -139,7 +139,7 @@ Use these local video embeds across sections. Files should exist under `static/v
 
 <div class="doc-video-block">
   <video controls preload="metadata">
-    <source src="/videos/Governance.mp4" type="video/mp4" />
+    <source src="videos/Governance.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
   <p class="doc-video-caption">Governance monitoring and compliance.</p>
@@ -149,9 +149,10 @@ Use these local video embeds across sections. Files should exist under `static/v
 
 <div class="doc-video-block">
   <video controls preload="metadata">
-    <source src="/videos/Chat-Bot.mp4" type="video/mp4" />
+    <source src="videos/Chat-Bot.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
   <p class="doc-video-caption">Built-in assistant and contextual help.</p>
 </div>
+
 

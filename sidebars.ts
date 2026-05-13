@@ -43,7 +43,7 @@ const sidebars: SidebarsConfig = {
     // },
 
     // ─── NFR Strategy Hub ─────────────────────────────────────────────────
-    'auto-nfr/nfr', 
+    'auto-NFR/nfr', 
     // {
     //   type: 'category',
     //   label: 'NFR Strategy Hub',
